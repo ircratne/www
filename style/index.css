@@ -1,0 +1,28 @@
+body{
+    background-image: url('./../img/main_background.jpg');}
+
+.topnav {
+  background-color: #4CAF50;
+  opacity: 0.7; /* прозрачность*/
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(251, 255, 0);
+  color: black;
+}
+
+.main_text { 
+    background-color: #4CAF50;
+    color:white;
+}

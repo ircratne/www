@@ -1,0 +1,176 @@
+
+.space::before{ 
+    content: ""; 
+    margin:20px; 
+  } 
+
+.certificate_1{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_1_details{
+position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;   /* Automatic margin from left */ 
+  margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_2{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_2_details{
+position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;   /* Automatic margin from left */ 
+  margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_3{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_3_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_3{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_3_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_4{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_4_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_5{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_5_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_6{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_6_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_7{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_7_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
+
+.certificate_8{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}    
+
+.certificate_8_details{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 50%;
+height: 100%;
+margin-left: auto;   /* Automatic margin from left */ 
+margin-right: auto; /* Automatic margin from right */ 
+}
