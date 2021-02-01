@@ -2,10 +2,6 @@
     background-color: white;
 }
 
-.d-flex {
-    position: fixed;
-}
-
 .menu-shadow {
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
@@ -24,11 +20,11 @@
     margin: 200px;
 }
 
-.recomendations_oop {
+.doc_tips_for_teachers {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-bottom: 90%;
+    padding-top: 90%;
     /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
@@ -38,7 +34,7 @@ iframe {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 70%;
+    width: 70 %;
     height: 100%;
     margin-left: auto;
     /* Automatic margin from left */

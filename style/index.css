@@ -1,28 +1,32 @@
-body{
-    background-image: url('./../img/main_background.jpg');}
-
-.topnav {
-  background-color: #4CAF50;
-  opacity: 0.7; /* прозрачность*/
-  overflow: hidden;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.column_background {
+    background-color: white;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(251, 255, 0);
-  color: black;
+.nav-link .dropdown-toggle {
+    white-space: nowrap;
 }
 
-.main_text { 
-    background-color: #4CAF50;
-    color:white;
+.img-position {
+    position: relative;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.menu-shadow {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.nav-item a:hover {
+    background-color: #fbf000;
+}
+
+.nav-link {
+    color: #287ddf;
 }
