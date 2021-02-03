@@ -89,11 +89,12 @@
             <div class="col-2">
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Нормативно правові документи</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Нормативно - правові документи</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document1" href="#">Лист</a>
-                            <a class="dropdown-item documentBtn" id="document2" href="#">Поради для вчителя</a>
-                            <a class="dropdown-item documentBtn" id="document3" href="#">Книжка</a>
+                            <a class="dropdown-item documentBtn" id="document1" href="#">Лист МОН про навчання осіб з ООП</a>
+                            <a class="dropdown-item documentBtn" id="document2" href="#">Посібник</a>
+                            <a class="dropdown-item documentBtn" id="document3" href="#">Навчальний посібник "Інклюзивна Освіта"</a>
+                            <a class="dropdown-item documentBtn" id="document4" href="#">Перелік спец засобів корекції</a>
                         </div>
                     </li>
                 </div>
@@ -101,7 +102,7 @@
 
             <div class="col">
                 <div style="display: flex; align-content: center; justify-content: center">
-                    <iframe id="frame" style="position: inherit; height: 90vh; width: 33vw" src="https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"></iframe>
+                    <iframe id="frame" style="position: inherit; height: 90vh; width: 45vw" src="https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"></iframe>
                 </div>
             </div>
         </div>
@@ -110,9 +111,10 @@
 
 <script>
     let urls = [
-        "https://drive.google.com/file/d/1QrPFQkQ27d6Is7lPTSPRcAkJODTFsVgQ/preview",
         "https://drive.google.com/file/d/14z6KaZhSzPeErOHblNYwr2xhHn_-aAMN/preview",
-        "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"
+        "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview",
+        "https://drive.google.com/file/d/1BK0WNQnvUq22-LSgkI1YGAhkGaDDSYdB/preview",
+        "https://drive.google.com/file/d/1O8w_5VjmNMbt_hHl9vFmPC56D9CabobK/preview"
     ]
     let frame = document.getElementById("frame");
     let documents = document.getElementsByClassName("documentBtn");

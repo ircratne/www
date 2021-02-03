@@ -3,7 +3,10 @@
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./../style/my_achivments.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
 </head>
 
 <body style="background-color: #e9e5df;">
@@ -85,9 +88,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Нормативно правові документи</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document1" href="#">Лист</a>
-                            <a class="dropdown-item documentBtn" id="document2" href="#">Поради для вчителя</a>
-                            <a class="dropdown-item documentBtn" id="document3" href="#">Книжка</a>
+                            <a class="dropdown-item documentBtn" id="document1" href="#">Методичні рекомендації</a>
                         </div>
                     </li>
                 </div>
@@ -95,7 +96,7 @@
 
             <div class="col">
                 <div style="display: flex; align-content: center; justify-content: center">
-                    <iframe id="frame" style="position: inherit; height: 90vh; width: 33vw" src="https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"></iframe>
+                    <iframe id="frame" style="position: inherit; height: 90vh; width: 45vw" src="https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"></iframe>
                 </div>
             </div>
         </div>
@@ -104,9 +105,7 @@
 
 <script>
     let urls = [
-        "https://drive.google.com/file/d/1QrPFQkQ27d6Is7lPTSPRcAkJODTFsVgQ/preview",
-        "https://drive.google.com/file/d/14z6KaZhSzPeErOHblNYwr2xhHn_-aAMN/preview",
-        "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"
+        "./../docs/steps.pdf#toolbar=0"
     ]
     let frame = document.getElementById("frame");
     let documents = document.getElementsByClassName("documentBtn");
