@@ -1,3 +1,47 @@
 .main_center_container {
     background-color: white;
 }
+
+.d-flex {
+    position: fixed;
+}
+
+.menu-shadow {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+}
+
+.nav-item a:hover {
+    background-color: #fbf000;
+}
+
+.nav-link {
+    color: #287ddf;
+}
+
+.space::before {
+    content: "";
+    margin: 200px;
+}
+
+.recomendations_oop {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 90%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    /* Automatic margin from left */
+    margin-right: auto;
+    /* Automatic margin from right */
+}
