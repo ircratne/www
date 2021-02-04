@@ -89,17 +89,47 @@
             <div class="col-3 main_center_container">
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Нормативно - правові документи</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Закони</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document1" href="#">Лист МОН про навчання осіб з ООП</a>
-                            <a class="dropdown-item documentBtn" id="document2" href="#">Посібник</a>
-                            <a class="dropdown-item documentBtn" id="document3" href="#">Навчальний посібник "Інклюзивна Освіта"</a>
-                            <a class="dropdown-item documentBtn" id="document4" href="#">Перелік спец засобів корекції</a>
+                            <a class="dropdown-item documentBtn" id="document1" href="#">Закон1</a>
+                            <a class="dropdown-item documentBtn" id="document2" href="#">Закон2</a>
                         </div>
                     </li>
                 </div>
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Листи</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item documentBtn" id="document3" href="#">Лист МОН про навчання осіб з ООП</a>
+                        </div>
+                    </li>
+                </div>
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Посібники</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item documentBtn" id="document4" href="#">Посібник</a>
+                        <a class="dropdown-item documentBtn" id="document5" href="#">Навчальний посібник "Інклюзивна Освіта"</a>
+                    </div>
+                </li>
             </div>
-
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Накази</a>
+                <div class="dropdown-menu">
+         
+                </div>
+            </li>
+        </div>
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Постанови</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item documentBtn" id="document4" href="#">Перелік спец засобів корекції</a>
+                </div>
+            </li>
+        </div>
+    </div>
             <div class="col">
                 <div style="display: flex; align-content: center; justify-content: center">
                     <iframe id="frame" style="position: inherit; height: 90vh; width: 45vw" src="https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview"></iframe>
@@ -111,10 +141,13 @@
 
 <script>
     let urls = [
-        "https://drive.google.com/file/d/14z6KaZhSzPeErOHblNYwr2xhHn_-aAMN/preview",
-        "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview",
-        "https://drive.google.com/file/d/1BK0WNQnvUq22-LSgkI1YGAhkGaDDSYdB/preview",
-        "https://drive.google.com/file/d/1O8w_5VjmNMbt_hHl9vFmPC56D9CabobK/preview"
+        "./../docs/zakon1.pdf#toolbar=0",
+        "./../docs/zakon2.pdf#toolbar=0",
+        "./../docs/Postanova1.pdf#toolbar=0",
+        "https://drive.google.com/file/d/14z6KaZhSzPeErOHblNYwr2xhHn_-aAMN/preview",    //Лист МОН про навчання осіб з ООП
+        "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview",    //Посібник
+        "https://drive.google.com/file/d/1BK0WNQnvUq22-LSgkI1YGAhkGaDDSYdB/preview",  //Навчальний посібник "Інклюзивна Освіта"
+        "https://drive.google.com/file/d/1O8w_5VjmNMbt_hHl9vFmPC56D9CabobK/preview"   //!--Перелік спец засобів корекції
     ]
     let frame = document.getElementById("frame");
     let documents = document.getElementsByClassName("documentBtn");
