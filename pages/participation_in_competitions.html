@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../style/participation_in_competitions.css">
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
 </head>
 
 <body style="background-color: #e9e5df;">
@@ -87,9 +87,10 @@
             <div class="col-3 main_center_container">
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Файли</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Мої роботи</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item documentBtn" id="document1" href="#">Методичні рекомендації</a>
+                            <a class="dropdown-item documentBtn" id="document2" href="#">Розробки занять з факультативного курсу</a>
                         </div>
                     </li>
                 </div>
@@ -106,7 +107,8 @@
 
 <script>
     let urls = [
-        "./../docs/steps.pdf#toolbar=0"
+        "./../docs/steps.pdf#toolbar=0",
+        "./../docs/kyrs.pdf#toolbar=0"
     ]
     let frame = document.getElementById("frame");
     let documents = document.getElementsByClassName("documentBtn");
