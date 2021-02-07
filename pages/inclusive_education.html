@@ -69,26 +69,29 @@
                 </div>
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Постанови</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item documentBtn" id="document3" href="#">Поствнова №872 15.08.2011 р.</a>
+                            <a class="dropdown-item documentBtn" id="document3" href="#">Постанова №983 від 21.10.2020 р.</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Накази</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document7" href="#">Наказ від 15 серпня 2011 р. № 872</a>
+                            <a class="dropdown-item documentBtn" id="document7" href="#">Наказ №873 від 21.06.2019 р.</a>
                             <a class="dropdown-item documentBtn" id="document7" href="#">Наказ від 08.06.2018 р. № 609</a>
                         </div>
                     </li>
                 </div>
-                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Постанови</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document3" href="#">Перелік спец засобів корекції</a>
-                        </div>
-                    </li>
-                </div>
+              
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 10px">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Листи</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item documentBtn" id="document4" href="#">Лист МОН про навчання осіб з ООП</a>
+                            <a class="dropdown-item documentBtn" id="document4" href="#">Лист 1/9-495 від 31.08.2020</a>
+                            <a class="dropdown-item documentBtn" id="document4" href="#">Лист 1/9-638 від 19.11.2020 р.</a>
                         </div>
                     </li>
                 </div>
@@ -115,10 +118,12 @@
     let urls = [
         "./../docs/zakon1.pdf#toolbar=0",
         "./../docs/zakon2.pdf#toolbar=0",
+        "./../docs/Postanova1.pdf#toolbar=0",
+        "./../docs/postanova.pdf#toolbar=0",
         "https://drive.google.com/file/d/1O8w_5VjmNMbt_hHl9vFmPC56D9CabobK/preview",
         "./../docs/Nakaz609.pdf#toolbar=0",
-        "./../docs/Postanova1.pdf#toolbar=0",
         "https://drive.google.com/file/d/14z6KaZhSzPeErOHblNYwr2xhHn_-aAMN/preview",    //Лист МОН про навчання осіб з ООП
+        "./../docs/lust.pdf#toolbar=0",
         "https://drive.google.com/file/d/1VMI4z7ZOiqPxYBJveTLO-abHjjjQuQH7/preview",    //Посібник
         "https://drive.google.com/file/d/1BK0WNQnvUq22-LSgkI1YGAhkGaDDSYdB/preview"]
     let frame = document.getElementById("frame");
