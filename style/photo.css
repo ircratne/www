@@ -2,6 +2,9 @@
     background-color: white;
 }
 
+.img-size{
+    height: 56vh; width: 31vw;
+}
 
 .d-flex {
     position: fixed;
