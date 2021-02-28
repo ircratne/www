@@ -3,7 +3,9 @@
 }
 
 .img-size{
-    height: 56vh; width: 31vw;
+    height: auto;
+     width: 70%;
+    position: inherit;
 }
 
 .d-flex {
